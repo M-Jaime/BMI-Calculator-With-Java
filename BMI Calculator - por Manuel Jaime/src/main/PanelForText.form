@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="197" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="134" max="32767" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" pref="392" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+              <Component id="jLabel1" max="32767" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" pref="440" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="&#xa;O &#xcd;ndice de Massa Corporal (IMC) &#xe9; uma medida que relaciona o peso e a altura de uma pessoa. &#xa;Ele &#xe9; calculado dividindo-se o peso (em quilogramas) pelo quadrado da altura (em metros). &#xa;A f&#xf3;rmula matem&#xe1;tica para calcular o IMC &#xe9; a seguinte:&#xa;O IMC &#xe9; frequentemente utilizado como uma ferramenta de triagem para avaliar se uma pessoa est&#xe1; em um peso saud&#xe1;vel em rela&#xe7;&#xe3;o &#xe0; sua altura. Ele fornece uma indica&#xe7;&#xe3;o geral de gordura corporal e &#xe9; amplamente utilizado em estudos epidemiol&#xf3;gicos e em avalia&#xe7;&#xf5;es de sa&#xfa;de p&#xfa;blica.&#xa;Os intervalos de IMC comumente aceitos e suas interpreta&#xe7;&#xf5;es s&#xe3;o os seguintes:&#xa;Abaixo de 18,5: Abaixo do peso&#xa;18,5 - 24,9: Peso normal&#xa;25,0 - 29,9: Sobrepeso&#xa;30,0 e acima: Obesidade&#xa;No entanto, &#xe9; importante notar que o IMC &#xe9; uma medida simplificada e n&#xe3;o leva em considera&#xe7;&#xe3;o outros fatores importantes, como a composi&#xe7;&#xe3;o corporal (propor&#xe7;&#xe3;o de massa muscular, gordura corporal, etc.), distribui&#xe7;&#xe3;o de gordura corporal e caracter&#xed;sticas individuais. Portanto, embora seja &#xfa;til como uma ferramenta inicial de avalia&#xe7;&#xe3;o, n&#xe3;o deve ser o &#xfa;nico crit&#xe9;rio usado para determinar a sa&#xfa;de de uma pessoa. Sempre &#xe9; recomend&#xe1;vel buscar a orienta&#xe7;&#xe3;o de um profissional de sa&#xfa;de para uma avalia&#xe7;&#xe3;o mais completa e precisa."/>
+            <Property name="wrapStyleWord" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="O que &#xe9; o IMC?"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
